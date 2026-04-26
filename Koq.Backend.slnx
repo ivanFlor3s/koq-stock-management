@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="KoqStockManagement.Api/KoqStockManagement.Api.csproj" />
+  <Project Path="KoqStockManagement.Application/KoqStockManagement.Application.csproj" />
+  <Project Path="KoqStockManagement.Domain/KoqStockManagement.Domain.csproj" />
+  <Project Path="KoqStockManagement.Infrastructure/KoqStockManagement.Infrastructure.csproj" />
+</Solution>

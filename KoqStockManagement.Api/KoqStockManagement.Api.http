@@ -1,0 +1,6 @@
+@KoqStockManagement.Api_HostAddress = http://localhost:5152
+
+GET {{KoqStockManagement.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
