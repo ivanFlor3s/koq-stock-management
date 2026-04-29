@@ -55,3 +55,14 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Explicitly ignore DLLs and executables even if folder rules fail
+*.dll
+*.exe
+*.pdb
+
+# Ignore mistakenly created backslash directories on macOS/Linux
+bin\\Debug/
+obj\\Debug/
+bin\\Release/
+obj\\Release/

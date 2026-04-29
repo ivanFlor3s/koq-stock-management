@@ -1,6 +1,6 @@
 services:
   db:
-    image: postgres:16-alpine
+    image: postgres:17-alpine
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgrespassword
@@ -17,7 +17,7 @@ services:
     environment:
       - ConnectionStrings__DefaultConnection=Host=db;Database=koq_stock_db;Username=postgres;Password=postgrespassword
     ports:
-      - "5000:8080"
+      - "5050:8080"
     depends_on:
       - db
 
